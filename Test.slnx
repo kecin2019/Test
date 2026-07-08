@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="Arguments/Arguments.csproj" />
+  <Project Path="AsyncConsole/AsyncConsole.csproj" Id="16b33253-95ff-4ff0-9e6e-c9a5701f7ace" />
   <Project Path="Test-20260708/Test-20260708.csproj" />
 </Solution>
