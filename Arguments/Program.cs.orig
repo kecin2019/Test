@@ -33,5 +33,9 @@ try
 catch (PlatformNotSupportedException)
 {
     WriteLine("The current platform does not support changing the size of the cursor.");
+<<<<<<< HEAD
     WriteLine("read me and i choose this");
 }
+=======
+}
+>>>>>>> feature/args-help
