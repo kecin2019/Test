@@ -25,4 +25,7 @@ try
 catch (PlatformNotSupportedException)
 {
     WriteLine("The current platform does not support changing the size of the cursor.");
+
+
+    WriteLine("read me and i choose this");
 }
