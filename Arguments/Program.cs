@@ -23,7 +23,7 @@ if (args.Length < 3)
 
 
 
-    
+    WriteLine("Run with -- help");
     return;
 }
 
