@@ -15,7 +15,6 @@ if (args.Length < 3)
 }
 
 ForegroundColor = (ConsoleColor)Enum.Parse(enumType: typeof(ConsoleColor), value: args[0], ignoreCase: true);
-
 BackgroundColor = (ConsoleColor)Enum.Parse(enumType: typeof(ConsoleColor), value: args[1], ignoreCase: true);
 
 try
@@ -25,7 +24,5 @@ try
 catch (PlatformNotSupportedException)
 {
     WriteLine("The current platform does not support changing the size of the cursor.");
-
-
     WriteLine("read me and i choose this");
 }
