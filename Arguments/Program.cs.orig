@@ -19,11 +19,18 @@ if (args.Length < 3)
     WriteLine("You must specify two colors and cursor size, e.g.");
     WriteLine("dotnet run red yellow 50");
     WriteLine("Run with --help to show usage.");
+<<<<<<< HEAD
+
+
+
+
+    WriteLine("Run with -- help");
+=======
+>>>>>>> 9eb9a8d (Merge branch 'master' of https://github.com/kecin2019/Test)
     return;
 }
 
 ForegroundColor = (ConsoleColor)Enum.Parse(enumType: typeof(ConsoleColor), value: args[0], ignoreCase: true);
-
 BackgroundColor = (ConsoleColor)Enum.Parse(enumType: typeof(ConsoleColor), value: args[1], ignoreCase: true);
 
 try
@@ -33,9 +40,8 @@ try
 catch (PlatformNotSupportedException)
 {
     WriteLine("The current platform does not support changing the size of the cursor.");
-<<<<<<< HEAD
+
+
+    
     WriteLine("read me and i choose this");
 }
-=======
-}
->>>>>>> feature/args-help
